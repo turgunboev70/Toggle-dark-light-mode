@@ -3,7 +3,7 @@ const toggle = document.querySelector("#toggle")
 const sunIcon = document.querySelector(".toggle .bxs-sun")
 const moonIcon = document.querySelector(".toggle .bx-moon")
 
-let rang = JSON.parse(localStorage.getItem("background")) || light
+let rang = JSON.parse(localStorage.getItem("background")) || "light"
 
 body.className = rang
 
